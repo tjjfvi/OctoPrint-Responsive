@@ -1,0 +1,47 @@
+#settings_dialog_menu, #settings_dialog_content {
+	max-width: 100%;
+	margin-left: 0;
+}
+
+.octoprint-container > .row > .tabbable {
+	max-width: calc(100vw - 360px)
+}
+
+.octoprint-container > .row > .accordion {
+	margin-left: 0;
+}
+
+.octoprint-container, .octoprint-container > .row {
+	max-width: 100%;
+	position: relative;
+	left: 20px;
+}
+
+#navbar > .navbar-inner > .container {
+	max-width: 100%;
+}
+
+#navbar {
+/* 	position: relative;
+	left: 20px; */
+}
+
+@media (max-width: 500px){
+	#navbar .navbar-inner .brand {
+		padding-right: 0px;
+	}
+	#navbar .brand span {
+		width: 0px;
+	}
+}
+
+@media (max-width: 600px) {
+	.octoprint-container > .row > .tabbable {
+		margin-left: 0px;
+		max-width: calc(100% - 40px);
+	}
+
+	.octoprint-container > .row > .accordion {
+		width: calc(100% - 40px);
+	}
+}
